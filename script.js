@@ -1,15 +1,20 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var options = ['length', 'Upper', 'lower', 'number', 'symbols'];
-var minlength = "8";
-var maxlength = "128";
-var number = "0123456789";
-var Upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var lower = "abcdefghijklmnopqrstuvwxyz";
-var symbols = "!@#$%^&*(){}[]=<>/,.";
-
+var length 
+var numberString = "0123456789";
+var UpperString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerString = "abcdefghijklmnopqrstuvwxyz";
+var symbolsString = "!@#$%^&*(){}[]=<>/,.";
+var randomPswdString = '';
 // Write password to the #password input
-function writePassword() {
+function generatePassword() {
+  var generateBtn = prompt("Choose a minimum of 8 characters and a maximum of 128 characters.");
+
+  if (generateBtn < 8 || generateBtn > 128) {
+    
+  }
+  
+ 
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -19,11 +24,6 @@ function writePassword() {
 passwordText.value = password;
 
 
-var generateBtn = window.prompt("Choose a length for your password between 8 and 128 characters:");
-if (length < 8 || length > 128) {
-  alert("Minimum length is 8 characters and maximum length is 128");
-}
-}
+
 // Add event listener to generate button
-generateBtn.addEventListener("click").value;
-generatePassword ();
+generateBtn.addEventListener("click", generatePassword).value;
