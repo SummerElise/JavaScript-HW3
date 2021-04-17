@@ -32,3 +32,4 @@ THEN the password is either displayed in an alert or written to the page
 You can find the live website here: https://SummerElise.github.io/JavaScript-HW3/
 
 The mock-up should resemble the example below:
+![03-javascript-homework-demo](https://user-images.githubusercontent.com/80479850/115124098-6f839980-9f8e-11eb-8f53-ee436eb5c8ff.png)
