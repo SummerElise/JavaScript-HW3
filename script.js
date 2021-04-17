@@ -18,9 +18,8 @@ var symbols;
 function generatePassword() {
   var generateBtn = prompt("Choose a minimum of 8 characters and a maximum of 128 characters.");
 
-  if(length < 8 || generateBtn > 128 || typeof(length) !=number || length === NaN || length === null) {
+  if(generateBtn < 8 || generateBtn > 128) {
     alert("Invalid choice. Please try again.");
-    length=parseInt(prompt("Choose a minimum of 8 characters and a maximum of 128 characters."));
   }
 
   if (generateBtn => 8 && generateBtn <= 128) {
@@ -28,9 +27,17 @@ function generatePassword() {
  Upper =confirm("Would you like your password to include Uppercase letters?")
  lower =confirm("Would you like your password to include lowercase letters?")
  symbols =confirm("Would you like your password to include special characters?")
-  
-  
-  }
+}
+
+if (number === true) {
+  var numberString;
+}
+
+if (Upper === true) {
+  UpperString = ""
+}
+
+  randomPswdString = (numberString + UpperString + lowerString + symbolsString)
 
   function writePassword() {
   var password = generatePassword();
