@@ -1,4 +1,5 @@
-This homework assignment required creating a password generator similar to the mock-up that was given to us.  The following
+# PASSWORD GENERATOR
+This homework assignment required creating a password generator similar to the mock-up that was given to us. HTML, CSS, and Javascript were used in the making of this assignment. The following
 requirements are to be met based off the given scenario:
 
 ## User Story
@@ -9,7 +10,7 @@ I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 ```
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 ```
 GIVEN I need a new, secure password
@@ -33,3 +34,13 @@ You can find the live website here: https://SummerElise.github.io/JavaScript-HW3
 
 The mock-up should resemble the example below:
 ![03-javascript-homework-demo](https://user-images.githubusercontent.com/80479850/115124098-6f839980-9f8e-11eb-8f53-ee436eb5c8ff.png)
+
+#### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+
+##### Contact Me
+I can be contacted by email at selise919@gmail.com
+
+###### License
+[MIT](https://choosealicense.com/licenses/mit/)
